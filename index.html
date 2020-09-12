@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Сергей Скулеба" />
+    <meta name="description" content="Portfollio" />
+    <meta name="keywords" content="Визитка, Web-developer, Front-end" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, min-scale=1.0" />
+    <title>My resume</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a072d6178.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="wrapper">
+
+      <header class="header">
+        <div class="container">
+          <div class="header-body">
+            <a href="#" class="header-logo">
+              Sergey Skuleba
+            </a>
+            <div class="header-burger">
+              <span></span>
+            </div>
+            <nav class="header-menu">
+              <ul class="header-list">
+                <li>
+                  <a href="#main" class="header-link">Main</a>
+                </li>
+                <li>
+                  <a href="#project" class="header-link">Projects</a>
+                </li>
+                <li>
+                  <a href="#work-experience" class="header-link">Work Experience</a>
+                </li>
+                <li>
+                  <a href="#education" class="header-link">Education</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="content" id="main">
+        <aside class="sidebar">
+          <img class="my-photo" src="./assets/images/1.jpg" alt="my photo">
+
+          <!-- contacts container -->
+          <div class="contacts-container">
+            <h3 class="contacts-title">Contacts</h3>
+            <div>
+              <span class="contact-links-type">C:</span> <a class="contacts-link" href="tel:380932575029">+38 093 257 50 29</a>
+            </div>
+
+            <div>
+              <span class="contact-links-type">E:</span> <a class="contacts-link" href="mailto:skyleba@ukr.net">skyleba@ukr.net</a>
+            </div>
+            <div class="icons">
+              <div class="icon-git">
+                <a href="https://github.com/ssqool"><i class="fab fa-github-square"></i></a>
+              </div>
+              <div class="icon-git">
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </div>
+              <div class="icon-git">
+                <a href="https://www.linkedin.com/in/sergey-skuleba-9b26b4166"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- tech skills container -->
+          <div class="tech-skills-container">
+            <h3 class="tech-skills-title">Tech skills</h3>
+            <ul>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">HTML5</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">CSS3</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">GIT</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">WebPack</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">JavaScript</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">React.js</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">Node.js</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- soft skills container -->
+          <div class="soft-skills-container">
+            <h3 class="soft-skills-title">Soft skills</h3>
+            <ul>
+              <li class="soft-skills-item">
+                <span class="soft-skills-text">Scrum</span>
+              </li>
+              <li class="soft-skills-item">
+                <span class="soft-skills-text">Agile</span>
+              </li>
+              <li class="soft-skills-item">
+                <span class="soft-skills-text">GTD</span>
+              </li>
+              <li class="soft-skills-item">
+                <span class="soft-skills-text">Teamwork</span>
+              </li>
+            </ul>
+          </div>
+
+        </aside>
+
+        <!-- about me container -->
+        <div class="about-me-container">
+          <!-- about me container -->
+          <div class="info-container">
+            <h2 class="profession">Front-End Developer</h2>
+            <h1 class="name">Sergey Skuleba</h1>
+
+            <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+            suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+            lacus vel facilisis.
+           </p>
+          </div>
+
+          <!-- projects container -->
+          <div class="projects-container" id="project">
+            <h3 class="about-me-title">Projects</h3>
+            <div class="projects-item">
+              <img src="./assets/images/project.png" alt="">
+              <img src="./assets/images/project.png" alt="">
+              <img src="./assets/images/project.png" alt="">
+              <img src="./assets/images/project.png" alt="">
+            </div>
+            <div class="projects-item project-item-2">
+              <img src="./assets/images/project.png" alt="">
+              <img src="./assets/images/project.png" alt="">
+              <img src="./assets/images/project.png" alt="">
+              <img src="./assets/images/project.png" alt="">
+            </div>
+          </div>
+
+          <!-- work experience -->
+          <div>
+            <h3 class="about-me-title" id="work-experience">Work Experience</h3>
+
+            <!-- company 1-->
+            <div>
+              <h4 class="profession-tittle">Front-End Developer <span class="profession-company">Freelance</span> </h4>
+              <span class="profession-time">
+                September 2019 - up to now <span class="profession-divider">|</span> Ukraine
+              </span>
+              <ul class="profession-duties">
+                <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li class="profession-duties-item">Risus commodo viverra maecenas. </li>
+                <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
+              </ul>
+            </div>
+
+            <!-- company 2-->
+            <div>
+              <h4 class="profession-tittle">Merchandiser <span class="profession-company">Lex Marketing</span> </h4>
+              <span class="profession-time">
+                March 2015 - October 2018 <span class="profession-divider">|</span> Ukraine
+              </span>
+              <ul class="profession-duties">
+                <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
+                <li class="profession-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
+                <li class="profession-duties-item">Risus commodo viverra maecenas. </li>
+              </ul>
+            </div>
+
+            <!-- company 3-->
+            <div>
+              <h4 class="profession-tittle">Manager <span class="profession-company">Roga & Kopyta LLC</span> </h4>
+              <span class="profession-time">
+                June 2014 - February 2015 <span class="profession-divider">|</span> Ukraine
+              </span>
+              <ul class="profession-duties">
+                <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li class="profession-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
+                <li class="profession-duties-item">Risus commodo viverra maecenas. </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- education container -->
+          <div class="education-container" id="education">
+            <h3 class="about-me-title">Education</h3>
+
+            <!-- Univerisy -->
+            <div>
+              <h4 class="university-name-container">Tarasa Shevchenka National University of Kyiv</h4>
+              <h4 class="faculty-container">Specialist in Information Technology</h4>
+              <span class="profession-time">
+                Septermber 2015 - June 2019 <span class="profession-divider">|</span> Ukraine
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <script src="http://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
